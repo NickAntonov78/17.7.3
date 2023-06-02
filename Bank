@@ -11,5 +11,5 @@ D = per_cent.get('СБЕР')
 Bank4 = money*D/100
 print(Bank1, Bank2, Bank3, Bank4)
 #Вторая часть
-deposit = [5600, 5900, 4280, 4000]
+deposit = [Bank1, Bank2, Bank3, Bank4]
 print(max(deposit))
